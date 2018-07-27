@@ -101,8 +101,8 @@
 		043E06B321093B430000105B /* Viewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
-				0430F3E5210A682D001C1700 /* CreateUsernameViewController.swift */,
 				04574CA9210935DB00E6ED13 /* ViewController.swift */,
+				0430F3E5210A682D001C1700 /* CreateUsernameViewController.swift */,
 				04240B1C21094DBA00C2DE5A /* LoginViewController.swift */,
 			);
 			path = Viewcontrollers;
@@ -129,9 +129,9 @@
 		04574CA6210935DB00E6ED13 /* firebaseApp */ = {
 			isa = PBXGroup;
 			children = (
+				04574CA7210935DB00E6ED13 /* AppDelegate.swift */,
 				0430F3ED210B7CA1001C1700 /* Extensions */,
 				0430F3DD210995C0001C1700 /* GoogleService-Info.plist */,
-				04574CA7210935DB00E6ED13 /* AppDelegate.swift */,
 				043E06B321093B430000105B /* Viewcontrollers */,
 				0430F3E0210A36D1001C1700 /* Models */,
 				043E06B221093B2E0000105B /* Storyboards */,
