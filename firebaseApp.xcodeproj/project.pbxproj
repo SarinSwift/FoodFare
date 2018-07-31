@@ -25,6 +25,9 @@
 		0445FAA0210E104A007C87AA /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445FA9F210E104A007C87AA /* UIImage+Size.swift */; };
 		0445FAA2210E1231007C87AA /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445FAA1210E1231007C87AA /* StorageReference+Post.swift */; };
 		0445FAA5210E74E8007C87AA /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0445FAA4210E74E8007C87AA /* Home.storyboard */; };
+		0445FAA8210E99BB007C87AA /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445FAA7210E99BB007C87AA /* PostImageCell.swift */; };
+		0445FAAC210F8115007C87AA /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445FAAB210F8115007C87AA /* PostHeaderCell.swift */; };
+		0445FAAE210F949D007C87AA /* PostActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445FAAD210F949D007C87AA /* PostActionCell.swift */; };
 		04574CA8210935DB00E6ED13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04574CA7210935DB00E6ED13 /* AppDelegate.swift */; };
 		04574CAD210935DB00E6ED13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04574CAB210935DB00E6ED13 /* Main.storyboard */; };
 		04574CAF210935DB00E6ED13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04574CAE210935DB00E6ED13 /* Assets.xcassets */; };
@@ -51,6 +54,10 @@
 		0445FA9F210E104A007C87AA /* UIImage+Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Size.swift"; sourceTree = "<group>"; };
 		0445FAA1210E1231007C87AA /* StorageReference+Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StorageReference+Post.swift"; sourceTree = "<group>"; };
 		0445FAA4210E74E8007C87AA /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		0445FAA7210E99BB007C87AA /* PostImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
+		0445FAA9210EADC8007C87AA /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0445FAAB210F8115007C87AA /* PostHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeaderCell.swift; sourceTree = "<group>"; };
+		0445FAAD210F949D007C87AA /* PostActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostActionCell.swift; sourceTree = "<group>"; };
 		04574CA4210935DB00E6ED13 /* firebaseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firebaseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04574CA7210935DB00E6ED13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04574CAC210935DB00E6ED13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -114,9 +121,9 @@
 		043E06B221093B2E0000105B /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				0445FAA4210E74E8007C87AA /* Home.storyboard */,
-				04574CAB210935DB00E6ED13 /* Main.storyboard */,
 				04240B1A21094D9E00C2DE5A /* Login.storyboard */,
+				04574CAB210935DB00E6ED13 /* Main.storyboard */,
+				0445FAA4210E74E8007C87AA /* Home.storyboard */,
 				04574CB0210935DB00E6ED13 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
@@ -125,11 +132,11 @@
 		043E06B321093B430000105B /* Viewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
-				0430F3E5210A682D001C1700 /* CreateUsernameViewController.swift */,
 				04240B1C21094DBA00C2DE5A /* LoginViewController.swift */,
+				0430F3E5210A682D001C1700 /* CreateUsernameViewController.swift */,
+				0445FA94210BCF64007C87AA /* MainTabBarController.swift */,
 				0445FA90210BBC06007C87AA /* HomeViewController.swift */,
 				0445FA92210BBC1A007C87AA /* FindFriendsViewController.swift */,
-				0445FA94210BCF64007C87AA /* MainTabBarController.swift */,
 			);
 			path = Viewcontrollers;
 			sourceTree = "<group>";
@@ -140,6 +147,16 @@
 				0445FA97210BDB81007C87AA /* MPPhotoHelper.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0445FAA6210E9991007C87AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0445FAAB210F8115007C87AA /* PostHeaderCell.swift */,
+				0445FAA7210E99BB007C87AA /* PostImageCell.swift */,
+				0445FAAD210F949D007C87AA /* PostActionCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		04574C9B210935DB00E6ED13 = {
@@ -164,11 +181,12 @@
 			isa = PBXGroup;
 			children = (
 				04574CA7210935DB00E6ED13 /* AppDelegate.swift */,
+				0445FAA6210E9991007C87AA /* Views */,
 				0445FA96210BDA96007C87AA /* Helpers */,
 				0430F3ED210B7CA1001C1700 /* Extensions */,
 				043E06B321093B430000105B /* Viewcontrollers */,
-				0430F3E0210A36D1001C1700 /* Models */,
 				043E06B221093B2E0000105B /* Storyboards */,
+				0430F3E0210A36D1001C1700 /* Models */,
 				0430F3E7210A876A001C1700 /* Services */,
 				0430F3EA210AD1F7001C1700 /* Supporting */,
 				04574CAE210935DB00E6ED13 /* Assets.xcassets */,
@@ -181,6 +199,7 @@
 		558578D17F8F91E9A74A265D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0445FAA9210EADC8007C87AA /* Kingfisher.framework */,
 				AA42219E4503E444A65627C5 /* Pods_firebaseApp.framework */,
 			);
 			name = Frameworks;
@@ -277,6 +296,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-firebaseApp/Pods-firebaseApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -284,6 +304,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -341,15 +362,18 @@
 				0445FA98210BDB81007C87AA /* MPPhotoHelper.swift in Sources */,
 				0445FA95210BCF64007C87AA /* MainTabBarController.swift in Sources */,
 				0445FA9E210E053C007C87AA /* Post.swift in Sources */,
+				0445FAA8210E99BB007C87AA /* PostImageCell.swift in Sources */,
 				0445FAA0210E104A007C87AA /* UIImage+Size.swift in Sources */,
 				0430F3E9210A877F001C1700 /* UserService.swift in Sources */,
 				0445FA91210BBC06007C87AA /* HomeViewController.swift in Sources */,
 				0430F3EF210B7CC2001C1700 /* Storyboard+Utility.swift in Sources */,
+				0445FAAE210F949D007C87AA /* PostActionCell.swift in Sources */,
 				0445FA93210BBC1A007C87AA /* FindFriendsViewController.swift in Sources */,
 				0445FAA2210E1231007C87AA /* StorageReference+Post.swift in Sources */,
 				0430F3EC210AD213001C1700 /* Constants.swift in Sources */,
 				0445FA9C210DA889007C87AA /* PostService.swift in Sources */,
 				0430F3E6210A682D001C1700 /* CreateUsernameViewController.swift in Sources */,
+				0445FAAC210F8115007C87AA /* PostHeaderCell.swift in Sources */,
 				04574CA8210935DB00E6ED13 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
