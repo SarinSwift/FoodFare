@@ -11,6 +11,8 @@ target 'firebaseApp' do
   pod 'Firebase/Database'
   pod 'Firebase/Storage'
   pod 'Kingfisher', '~> 4.0'
+  pod 'GoogleSignIn'
+  pod 'Google'
 
   # Pods for firebaseApp
 

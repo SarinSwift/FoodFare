@@ -8,8 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0413494A211202B5009FC751 /* FollowService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04134949211202B5009FC751 /* FollowService.swift */; };
+		0413494D21135331009FC751 /* FindFriends.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0413494B21135331009FC751 /* FindFriends.storyboard */; };
+		0413494F21136BD9009FC751 /* FindFriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413494E21136BD9009FC751 /* FindFriendsCell.swift */; };
 		04175C292111069700F3DFD6 /* LikeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04175C282111069700F3DFD6 /* LikeService.swift */; };
 		04175C2B21117A0000F3DFD6 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04175C2A21117A0000F3DFD6 /* Profile.storyboard */; };
+		042343E021168A9400855F50 /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042343DF21168A9400855F50 /* credentials.plist */; };
 		04240B1B21094D9E00C2DE5A /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04240B1A21094D9E00C2DE5A /* Login.storyboard */; };
 		04240B1D21094DBA00C2DE5A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04240B1C21094DBA00C2DE5A /* LoginViewController.swift */; };
 		0430F3DE210995C0001C1700 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0430F3DD210995C0001C1700 /* GoogleService-Info.plist */; };
@@ -35,13 +38,19 @@
 		04574CAD210935DB00E6ED13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04574CAB210935DB00E6ED13 /* Main.storyboard */; };
 		04574CAF210935DB00E6ED13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04574CAE210935DB00E6ED13 /* Assets.xcassets */; };
 		04574CB2210935DB00E6ED13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04574CB0210935DB00E6ED13 /* LaunchScreen.storyboard */; };
+		04856E9D211518BA002C9BA7 /* PhotoPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04856E9C211518BA002C9BA7 /* PhotoPickerViewController.swift */; };
+		04856EA021151B42002C9BA7 /* PhotoPicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04856E9F21151B42002C9BA7 /* PhotoPicker.storyboard */; };
+		04F68EA82115ED200049AAA4 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F68EA72115ED200049AAA4 /* UIColor+Hex.swift */; };
 		C18BC173604F15670AE2E254 /* Pods_firebaseApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA42219E4503E444A65627C5 /* Pods_firebaseApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04134949211202B5009FC751 /* FollowService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowService.swift; sourceTree = "<group>"; };
+		0413494C21135331009FC751 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/FindFriends.storyboard; sourceTree = "<group>"; };
+		0413494E21136BD9009FC751 /* FindFriendsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFriendsCell.swift; sourceTree = "<group>"; };
 		04175C282111069700F3DFD6 /* LikeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeService.swift; sourceTree = "<group>"; };
 		04175C2A21117A0000F3DFD6 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		042343DF21168A9400855F50 /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
 		04240B1A21094D9E00C2DE5A /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		04240B1C21094DBA00C2DE5A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0430F3DD210995C0001C1700 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -70,6 +79,9 @@
 		04574CAE210935DB00E6ED13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04574CB1210935DB00E6ED13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04574CB3210935DB00E6ED13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04856E9C211518BA002C9BA7 /* PhotoPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerViewController.swift; sourceTree = "<group>"; };
+		04856E9F21151B42002C9BA7 /* PhotoPicker.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PhotoPicker.storyboard; sourceTree = "<group>"; };
+		04F68EA72115ED200049AAA4 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 		9143592879ED9AC18D07988A /* Pods-firebaseApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseApp/Pods-firebaseApp.release.xcconfig"; sourceTree = "<group>"; };
 		AA42219E4503E444A65627C5 /* Pods_firebaseApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebaseApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6FB742A3D899626FF189B23 /* Pods-firebaseApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseApp/Pods-firebaseApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +134,7 @@
 				0430F3EE210B7CC2001C1700 /* Storyboard+Utility.swift */,
 				0445FA9F210E104A007C87AA /* UIImage+Size.swift */,
 				0445FAA1210E1231007C87AA /* StorageReference+Post.swift */,
+				04F68EA72115ED200049AAA4 /* UIColor+Hex.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -132,6 +145,8 @@
 				04240B1A21094D9E00C2DE5A /* Login.storyboard */,
 				04574CAB210935DB00E6ED13 /* Main.storyboard */,
 				0445FAA4210E74E8007C87AA /* Home.storyboard */,
+				0413494B21135331009FC751 /* FindFriends.storyboard */,
+				04856E9F21151B42002C9BA7 /* PhotoPicker.storyboard */,
 				04175C2A21117A0000F3DFD6 /* Profile.storyboard */,
 				04574CB0210935DB00E6ED13 /* LaunchScreen.storyboard */,
 			);
@@ -146,6 +161,7 @@
 				0445FA94210BCF64007C87AA /* MainTabBarController.swift */,
 				0445FA90210BBC06007C87AA /* HomeViewController.swift */,
 				0445FA92210BBC1A007C87AA /* FindFriendsViewController.swift */,
+				04856E9C211518BA002C9BA7 /* PhotoPickerViewController.swift */,
 			);
 			path = Viewcontrollers;
 			sourceTree = "<group>";
@@ -164,6 +180,7 @@
 				0445FAAB210F8115007C87AA /* PostHeaderCell.swift */,
 				0445FAA7210E99BB007C87AA /* PostImageCell.swift */,
 				0445FAAD210F949D007C87AA /* PostActionCell.swift */,
+				0413494E21136BD9009FC751 /* FindFriendsCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,6 +218,7 @@
 				04574CAE210935DB00E6ED13 /* Assets.xcassets */,
 				04574CB3210935DB00E6ED13 /* Info.plist */,
 				0430F3DD210995C0001C1700 /* GoogleService-Info.plist */,
+				042343DF21168A9400855F50 /* credentials.plist */,
 			);
 			path = firebaseApp;
 			sourceTree = "<group>";
@@ -285,12 +303,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				04574CB2210935DB00E6ED13 /* LaunchScreen.storyboard in Resources */,
+				0413494D21135331009FC751 /* FindFriends.storyboard in Resources */,
 				04574CAF210935DB00E6ED13 /* Assets.xcassets in Resources */,
 				0430F3DE210995C0001C1700 /* GoogleService-Info.plist in Resources */,
 				0445FAA5210E74E8007C87AA /* Home.storyboard in Resources */,
 				04574CAD210935DB00E6ED13 /* Main.storyboard in Resources */,
 				04175C2B21117A0000F3DFD6 /* Profile.storyboard in Resources */,
+				042343E021168A9400855F50 /* credentials.plist in Resources */,
 				04240B1B21094D9E00C2DE5A /* Login.storyboard in Resources */,
+				04856EA021151B42002C9BA7 /* PhotoPicker.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,11 +320,12 @@
 /* Begin PBXShellScriptBuildPhase section */
 		1A0E8084118554355F9891E0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-firebaseApp/Pods-firebaseApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
@@ -312,6 +334,7 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
@@ -325,7 +348,7 @@
 		};
 		4FA51EB8D3088E7C87B5197B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -343,16 +366,18 @@
 		};
 		9C440C3FF23C1EFDDAC87F05 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-firebaseApp/Pods-firebaseApp-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -375,7 +400,10 @@
 				04175C292111069700F3DFD6 /* LikeService.swift in Sources */,
 				0445FAA8210E99BB007C87AA /* PostImageCell.swift in Sources */,
 				0445FAA0210E104A007C87AA /* UIImage+Size.swift in Sources */,
+				04F68EA82115ED200049AAA4 /* UIColor+Hex.swift in Sources */,
 				0413494A211202B5009FC751 /* FollowService.swift in Sources */,
+				0413494F21136BD9009FC751 /* FindFriendsCell.swift in Sources */,
+				04856E9D211518BA002C9BA7 /* PhotoPickerViewController.swift in Sources */,
 				0430F3E9210A877F001C1700 /* UserService.swift in Sources */,
 				0445FA91210BBC06007C87AA /* HomeViewController.swift in Sources */,
 				0430F3EF210B7CC2001C1700 /* Storyboard+Utility.swift in Sources */,
@@ -393,6 +421,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		0413494B21135331009FC751 /* FindFriends.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0413494C21135331009FC751 /* Base */,
+			);
+			name = FindFriends.storyboard;
+			sourceTree = "<group>";
+		};
 		04574CAB210935DB00E6ED13 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -532,7 +568,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7C5XTUX6GS;
 				INFOPLIST_FILE = firebaseApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -550,7 +588,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7C5XTUX6GS;
 				INFOPLIST_FILE = firebaseApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
