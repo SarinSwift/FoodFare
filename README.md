@@ -14,3 +14,6 @@ View on the [App Store](https://itunes.apple.com/us/app/food-fare/id1424609701?m
 - Swift 3
 - Firebase Database
 - UIKit
+
+## Screen Casts
+![Main](Images/main.png) ![PersonalPage](Images/personal.png) ![MainSample](Images/sampleMain.png) ![Upload](Images/uploadImage.png)
