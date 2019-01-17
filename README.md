@@ -16,4 +16,8 @@ View on the [App Store](https://itunes.apple.com/us/app/food-fare/id1424609701?m
 - UIKit
 
 ## Screen Casts
-![Main](Images/main.png) ![PersonalPage](Images/personal.png) ![MainSample](Images/sampleMain.png) ![Upload](Images/uploadImage.png)
+<div>
+  <pre>
+     <img src="https://github.com/SarinSwift/MarketPlaceFinale/blob/master/Images/main.jpg" width="150">   <img src="https://github.com/SarinSwift/MarketPlaceFinale/blob/master/Images/sampleMain.jpg" width="150">   <img src="https://github.com/SarinSwift/MarketPlaceFinale/blob/master/Images/personal.jpg" width="150">   <img src="https://github.com/SarinSwift/MarketPlaceFinale/blob/master/Images/uploadImage.jpg" width="150"> 
+  </pre>
+</div> 
